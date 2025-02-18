@@ -9,6 +9,8 @@ import org.web3j.protocol.http.HttpService;
 @SpringBootApplication
 public class DemoApplication {
 
+	private Point pointContract;
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 		// console log heere
